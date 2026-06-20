@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run build",
+  "installCommand": "npm ci --no-cache || npm install --no-cache",
+  "outputDirectory": "dist",
+  "framework": "vite"
+}
