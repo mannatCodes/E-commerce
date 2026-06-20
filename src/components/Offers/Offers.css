@@ -1,0 +1,154 @@
+.offer{
+    width: 88%;
+    margin: 60px auto;
+    padding: 40 60px;
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    
+    position: relative;
+    border-radius: 42px;
+
+    background:
+    radial-gradient(
+        circle at top left,
+        rgba(255,120,150,.18),
+        transparent 40%
+    ),
+    radial-gradient(
+        circle at bottom right,
+        rgba(255,180,120,.15),
+        transparent 35%
+    ),
+    linear-gradient(
+        135deg,
+        #fff8fa,
+        #fff0f4
+    );
+}
+
+
+.offer-left{
+    flex: 1;
+    z-index: 2;
+    padding-left: 40px;
+}
+
+.offer-left h1:first-child{
+    font-size: 26px;
+    color: #ff4d6d;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.offer-left h1:nth-child(2){
+    font-size: 96px;
+    line-height: .95;
+    color: #121212;
+    font-weight: 900;
+}
+
+.offer-left p{
+    margin-top: 26px;
+    font-size: 28px;
+    color: #555;
+}
+
+
+.left-btn{
+    margin-top: 42px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 18px 34px;
+    border-radius: 999px;
+    background:
+    linear-gradient(
+        90deg,
+        #ff4d6d,
+        #ff8660
+    );
+
+    cursor: pointer;
+    transition: .35s;
+}
+
+.left-btn:hover{
+    transform:
+        translateY(-6px);
+
+    box-shadow:
+        0 20px 40px rgba(255,77,109,.25);
+}
+
+.left-btn button{
+    border: none;
+    background: transparent;
+    color: white;
+
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.left-btn span{
+    color: white;
+    font-size: 28px;
+}
+
+
+/* RIGHT */
+
+.offer-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.offer-right::before{
+    content:"";
+    position:absolute;
+    width:520px;
+    height:520px;
+
+    border-radius:50%;
+    background:
+    linear-gradient(
+        135deg,
+        rgba(255,90,120,.12),
+        rgba(255,170,120,.15)
+    );
+    filter: blur(10px);
+}
+
+.offer-right img{
+  width: 60%;
+  max-width: 550px;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s;
+}
+
+.offer-right img:hover{
+    transform:translateY(15px) scale(1.03);
+}
+
+@media (max-width: 835px) {
+
+    .offer-left {
+        padding-left:27px;
+    }
+    .offer-left h1:nth-child(2) {
+        font-size: 50px;
+    }
+
+}

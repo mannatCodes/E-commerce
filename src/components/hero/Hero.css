@@ -1,0 +1,125 @@
+.hero {
+    height: 100vh;
+    background:
+        linear-gradient(
+            120deg,
+            rgba(255, 235, 240, 0.18) 0%,
+            rgba(248, 230, 255, 0.30) 45%,
+            rgba(240, 245, 255, 0.45) 100%
+        ),
+       url("https://images.unsplash.com/photo-1529139574466-a303027c1d8b");
+
+    background-size: cover;
+    background-position:left;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.hero-left h2 {
+    color: #ff4d6d;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.hero-left p {
+    color: #1e1e1e;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.hero-latest-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    width: fit-content;
+    margin-top: 35px;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 999px;
+    background: linear-gradient(
+        90deg,
+        #ff4d6d,
+        #ff7b54
+    );
+
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-latest-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(255, 77, 110, 0.514);
+}
+
+@media (max-width: 850px) {
+     .hero-left p {
+        font-size: 40px;
+     }
+
+     .hero {
+        padding: 30px;
+     }
+}
+
+@media (max-width: 463px) {
+     .hero-left p {
+        font-size: 30px;
+     }
+
+     .hero-left h2 {
+        font-size: 14px;
+     }
+
+     .hero {
+        padding: 30px;
+     }
+
+     .hero-latest-btn {
+        width: 220px;
+        padding: 20px 0px;
+     }
+}
+
+@media (max-width: 390px) {
+     .hero-left p {
+        font-size: 20px;
+     }
+
+     .hero-left h2 {
+        font-size: 10px;
+     }
+
+     .hero {
+        padding: 30px;
+     }
+
+     .hero-latest-btn {
+        width: 200px;
+        padding: 10px 0px;
+     }
+}
+
