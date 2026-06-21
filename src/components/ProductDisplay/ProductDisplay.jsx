@@ -1,6 +1,6 @@
 import React ,  {useState , useContext} from 'react'
 import "./ProductDisplay.css"
-import StarImage from "../../assets/StarImage.avif"
+import StarImage from "../../assets/starImage.avif"
 import halfStar from "../../assets/halfStar.webp"
 import { ShopContext } from "../Context/ShopContext.jsx"
 
