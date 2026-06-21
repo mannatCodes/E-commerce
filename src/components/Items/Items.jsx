@@ -4,10 +4,10 @@ import {Link} from 'react-router-dom'
 
 const Items = (props) => {
   return (
+    <Link to={`/product/${props.id}`}>
     <div className='item'>
-
-      <Link to={`/product/${props.id}`}>
-      <img src={props.image} alt=""/> </Link>
+      
+      <img src={props.image} alt=""/>
 
       <p>{props.name}</p>
       <div className="item-prices">
@@ -19,6 +19,7 @@ const Items = (props) => {
         </div>
       </div>
     </div>
+    </Link>
   )
 }
 
