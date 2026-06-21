@@ -12,7 +12,7 @@ import newcollection8 from "./newcollection8.jpg"
 let new_collection = [
 
     {
-        id:1,
+        id:106,
         name:"Cotton T-Shirt",
         category: "men",
         image : newcollection1,
@@ -20,13 +20,13 @@ let new_collection = [
         old_price:62.0
     },
 
-    {id:2, name:"Men's Shorts",category: "men",image : newcollection2, new_price:40.0, old_price:55.0},
-    {id:3, name:"Green Midi",category: "kids",image : newcollection3, new_price:34.0, old_price:42.0},
-    {id:4, name:"Bow Dress",category: "kids",image : newcollection4, new_price:67.0, old_price:73.0},
-    {id:5, name:"Brown T-Shirt",category: "kids",image : newcollection5, new_price:43.0, old_price:51.0},
-    {id:6, name:"Orange Short Dress",category: "women",image : newcollection6, new_price:78.0, old_price:94.0},
-    {id:7, name:"White Floral Dress",category: "women",image : newcollection7, new_price:54.0, old_price:92.0},
-    {id:8, name:"Pink Shirt",category: "men",image : newcollection8, new_price:67.0, old_price:71.0}
+    {id:107, name:"Men's Shorts",category: "men",image : newcollection2, new_price:40.0, old_price:55.0},
+    {id:108, name:"Green Midi",category: "kids",image : newcollection3, new_price:34.0, old_price:42.0},
+    {id:109, name:"Bow Dress",category: "kids",image : newcollection4, new_price:67.0, old_price:73.0},
+    {id:110, name:"Brown T-Shirt",category: "kids",image : newcollection5, new_price:43.0, old_price:51.0},
+    {id:111, name:"Orange Short Dress",category: "women",image : newcollection6, new_price:78.0, old_price:94.0},
+    {id:112, name:"White Floral Dress",category: "women",image : newcollection7, new_price:54.0, old_price:92.0},
+    {id:113, name:"Pink Shirt",category: "men",image : newcollection8, new_price:67.0, old_price:71.0}
 ]
 
 export default new_collection

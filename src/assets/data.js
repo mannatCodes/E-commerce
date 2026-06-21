@@ -6,7 +6,7 @@ import p5_img from '../assets/home5.jpg'
 
 let data_product= [
      {
-            id: 1,
+            id: 101,
             name: "White Maxi Dress",
             category: "women",
             image: p1_img,
@@ -14,10 +14,10 @@ let data_product= [
             old_price: 70.0
         },
     
-        { id: 2, name: "Pink Floral Dress", category: "women", image:p2_img, new_price: 65.0, old_price: 81.0 },
-        { id: 3, name: "Orange Dress", category: "women", image:p3_img, new_price: 78.0, old_price: 45.0 },
-        { id: 4, name: "Strapless Top", category: "women", image: p4_img, new_price: 34.0, old_price:42.0 },
-        { id: 5, name: "Co-ord set", category: "women", image: p5_img, new_price: 89.0, old_price: 78.0 },
+        { id: 102, name: "Pink Floral Dress", category: "women", image:p2_img, new_price: 65.0, old_price: 81.0 },
+        { id: 103, name: "Orange Dress", category: "women", image:p3_img, new_price: 78.0, old_price: 45.0 },
+        { id: 104, name: "Strapless Top", category: "women", image: p4_img, new_price: 34.0, old_price:42.0 },
+        { id: 105, name: "Co-ord set", category: "women", image: p5_img, new_price: 89.0, old_price: 78.0 },
 ]
 
 export default data_product;

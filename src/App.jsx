@@ -10,11 +10,13 @@ import Footer from "./components/Footer/Footer";
 import women_banner from "./assets/women_banner.jpg"
 import men_banner from "./assets/men_banner.jpg"
 import kids_banner from "./assets/kids_banner.jpg"
+import ScrollToTop from "./Pages/ScrollToTop.jsx"
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <ScrollToTop />
 
       <Routes>
         <Route path="/" element={<Shop />} />

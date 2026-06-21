@@ -1,4 +1,19 @@
 
+import p101_img from '../assets/home1.jpg'
+import p102_img from '../assets/home2.webp'
+import p103_img from '../assets/home3.webp'
+import p104_img from '../assets/home4.webp'
+import p105_img from '../assets/home5.jpg'
+
+
+import newcollection1 from "./newcollection1.webp"
+import newcollection2 from "./newcollection2.webp"
+import newcollection3 from "./newcollection3.jpg"
+import newcollection4 from "./newcollection4.jpg"
+import newcollection5 from "./newcollection5.jpg"
+import newcollection6 from "./newcollection6.webp"
+import newcollection7 from "./newcollection7.webp"
+import newcollection8 from "./newcollection8.jpg"
 
 import p1_img from '../assets/kidssection1.jpg'
 import p2_img from '../assets/kidssection2.jpg'
@@ -89,12 +104,39 @@ let all_product = [
     { id: 28, name: "Floral Dress", category: "women", image: p31_img, new_price: 55.0, old_price: 98.0 },
     { id: 29, name: "Red Stone Dress", category: "women", image: p32_img, new_price: 132.0, old_price: 149.0 },
     { id: 30, name: "Mini neon Dress", category: "women", image: p33_img, new_price: 167.0, old_price: 189.0 },
-    { id: 31, name: "CGreen Striped Dress", category: "women", image: p34_img, new_price: 105.0, old_price: 156.0 },
+    { id: 31, name: "Green Striped Dress", category: "women", image: p34_img, new_price: 105.0, old_price: 156.0 },
     { id: 32, name: "Yellow set", category: "women", image: p35_img, new_price: 94.0, old_price: 170.0 },
     { id: 33, name: "Jumpsuit", category: "women", image: p36_img, new_price: 178.0, old_price: 190.0 },
-
+    {
+            id: 101,
+            name: "White Maxi Dress",
+            category: "women",
+            image: p101_img,
+            new_price: 50.0,
+            old_price: 70.0
+        },
     
+        { id: 102, name: "Pink Floral Dress", category: "women", image:p102_img, new_price: 65.0, old_price: 81.0 },
+        { id: 103, name: "Orange Dress", category: "women", image:p103_img, new_price: 78.0, old_price: 45.0 },
+        { id: 104, name: "Strapless Top", category: "women", image: p104_img, new_price: 34.0, old_price:42.0 },
+        { id: 105, name: "Co-ord set", category: "women", image: p105_img, new_price: 89.0, old_price: 78.0 },
     
+    {
+            id:106,
+            name:"Cotton T-Shirt",
+            category: "men",
+            image : newcollection1,
+            new_price:50.0,
+            old_price:62.0
+        },
+    
+        {id:107, name:"Men's Shorts",category: "men",image : newcollection2, new_price:40.0, old_price:55.0},
+        {id:108, name:"Green Midi",category: "kids",image : newcollection3, new_price:34.0, old_price:42.0},
+        {id:109, name:"Bow Dress",category: "kids",image : newcollection4, new_price:67.0, old_price:73.0},
+        {id:110, name:"Brown T-Shirt",category: "kids",image : newcollection5, new_price:43.0, old_price:51.0},
+        {id:111, name:"Orange Short Dress",category: "women",image : newcollection6, new_price:78.0, old_price:94.0},
+        {id:112, name:"White Floral Dress",category: "women",image : newcollection7, new_price:54.0, old_price:92.0},
+        {id:113, name:"Pink Shirt",category: "men",image : newcollection8, new_price:67.0, old_price:71.0}
 
     
 ] 
