@@ -2,7 +2,7 @@ import React , {useContext , useState} from 'react'
 import "./CartItems.css"
 import { ShopContext } from "../Context/ShopContext.jsx";
 import crossIcon from "../../assets/crossIcon.png"
-import "./CartItems.css"
+import "./cartItems.css"
 
 const CartItems = () => {
 
